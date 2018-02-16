@@ -8,7 +8,6 @@ class Dog
       @name
     end
 
-
   fido = Dog.new
   fido.name = "Fido"
 
@@ -22,8 +21,8 @@ class Dog
       @breed
     end
 
-
   beagle = Dog.new
   beagle.breed = "Beagle"
 
   puts beagle.breed
+end
