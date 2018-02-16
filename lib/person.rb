@@ -7,10 +7,10 @@ class Person
       @name
     end
 
-  beyonce = Person.new
-  beyonce.name = "Beyonce"
-
-  puts beyonce.name
+  # beyonce = Person.new
+  # beyonce.name = "Beyonce"
+  #
+  # puts beyonce.name
 
   def job=(job_name)
       @job = job_name
