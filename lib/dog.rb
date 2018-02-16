@@ -10,7 +10,7 @@ class Dog
 
   # fido = Dog.new
   # fido.name = "Fido"
-  # 
+  #
   # puts fido.name
 
   def breed=(dogs_breed)
@@ -23,6 +23,6 @@ class Dog
 
   # beagle = Dog.new
   # beagle.breed = "Beagle"
-  # 
+  #
   # puts beagle.breed
 end
