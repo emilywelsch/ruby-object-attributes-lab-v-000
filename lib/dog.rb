@@ -8,6 +8,8 @@ class Dog
   end
 
 fido = Dog.new("Fido")
+fido.name
+=> "Fido"
 snoopy = Dog.new("Snoppy")
 
   def initialize(breed)
