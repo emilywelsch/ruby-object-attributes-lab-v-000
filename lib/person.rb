@@ -20,8 +20,8 @@ class Person
       @job
     end
 
-  singer = Person.new
-  singer.job = "Singer"
-
-  puts singer.job
+  # singer = Person.new
+  # singer.job = "Singer"
+  #
+  # puts singer.job
 end
