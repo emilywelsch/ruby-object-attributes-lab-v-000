@@ -27,5 +27,3 @@ class Dog
   beagle.breed = "Beagle"
 
   puts beagle.breed
-
-  
