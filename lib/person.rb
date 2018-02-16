@@ -12,8 +12,8 @@ class Person
   #
   # puts beyonce.name
 
-  def job=(job_name)
-      @job = job_name
+  def job=(persons_job)
+      @job = persons_job
     end
 
     def job
