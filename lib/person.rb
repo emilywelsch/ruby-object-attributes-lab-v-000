@@ -11,4 +11,17 @@ class Person
   beyonce.name = "Beyonce"
 
   puts beyonce.name
+
+  def job=(job_name)
+      @job = job_name
+    end
+
+    def job
+      @job
+    end
+
+  singer = Person.new
+  singer.job = "Singer"
+
+  puts singer.job
 end
