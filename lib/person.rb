@@ -1,17 +1,14 @@
 class Person
-  def initialize(name)
-    @name = name
-  end
+  def name=(persons_name)
+      @name = persons_name
+    end
 
-  def name
-    @name
-  end
+    def name
+      @name
+    end
 
-  def initialize(job)
-    @job = job
-  end
+  beyonce = Persong.new
+  beyonce.name = "Beyonce"
 
-  def job
-    @job
-  end
+  puts beyonce.name
 end
