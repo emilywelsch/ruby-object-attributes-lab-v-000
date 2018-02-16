@@ -7,6 +7,9 @@ class Dog
     @name
   end
 
+fido = Dog.new
+snoopy = Dog.new
+
   def initialize(breed)
     @breed = breed
   end
